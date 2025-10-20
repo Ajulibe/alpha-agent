@@ -1,0 +1,12 @@
+# OpenRouter API Key (for accessing multiple AI models)
+OPENROUTER_API_KEY=your_openrouter_api_key_here
+
+# OpenAI API Key (alternative to OpenRouter)
+OPENAI_API_KEY=your_openai_api_key_here
+
+# Pushover API Keys (for push notifications)
+PUSHOVER_TOKEN=your_pushover_token_here
+PUSHOVER_USER=your_pushover_user_here
+
+# Resend API Key (for email notifications)
+RESEND_API_KEY=your_resend_api_key_here

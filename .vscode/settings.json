@@ -1,0 +1,27 @@
+{
+  "python.defaultInterpreterPath": "./.venv/bin/python",
+  "python.formatting.provider": "black",
+  "python.linting.enabled": true,
+  "python.linting.flake8Enabled": true,
+  "python.linting.pylintEnabled": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true,
+    "source.fixAll.pylint": true,
+    "source.fixAll.flake8": true
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+    "editor.rulers": [88]
+  },
+  "black-formatter.args": ["--line-length=88"],
+  "flake8.args": ["--max-line-length=88"],
+  "pylint.args": [
+    "--max-line-length=88",
+    "--disable=missing-docstring,no-member"
+  ],
+  "python.linting.lintOnSave": true,
+  "python.linting.autoSelectWorkspaceInterpreter": true,
+  "problems.showCurrentInStatus": true
+}
